@@ -99,28 +99,68 @@ df_new.columns = ['manufacturer', 'caliber_gauge ',
 
 df_new.ix[:, ['weapon_type', 'firearm_count']].groupby('weapon_type').sum()
 
-def class_merger(x):
-    if x['category_3'] == 'Suppressors':
-        return 'Suppressors'
 
+# Load in the price data from armslist
 
 df = pd.read_table('uncharted_data/armslist-prices.txt')
 df.drop('category_1', axis=1, inplace=True)
 df.manufacturer = df.manufacturer.fillna('?').apply(
     lambda x: ' '.join(html.unescape(x).strip().split()))
 
-manufacturers_to_use = set(df.manufacturer.value_counts().ix[
-                           df.manufacturer.value_counts() > 29].index.tolist()) - set('?')
-
-
-
-for col in ['category_2', 'category_3', 'manufacturer', 'caliber']:
+# Kill various bad / unnecessary things
+odd_category_2s = {'Antique Firearms', 'Events', 'Farming Equipment',
+                   'Fishing Gear', 'Gun Safes',  'Hunting Gear', 'Knives',
+                   'Optics', 'Reloading', 'Tactical Gear',
+                   'Targets and Range Equipment', 'Vehicles'}
+df = df.ix[(df.category_2.apply(lambda x: x not in odd_category_2s)), :]
+for col in ['category_2', 'category_3']:
     df.ix[:, col] = df.ix[:, col].fillna('')
+df.caliber = df.caliber.fillna('?')
+df = df.ix[(df.category_2 != '') | (df.category_3 != ''), :]
+df = df.ix[df.price_usd > 0, :]
+df.vendor_type = df.vendor_type.astype('category')
 
-odd_category_2s = {'Events', 'Farming Equipment', 'Fishing Gear',
-                   'Gun Safes',  'Hunting Gear', 'Knives', 'Optics',
-                   'Reloading', 'Tactical Gear', 'Targets and Range Equipment',
-                   'Vehicles'}
+manufacturer_mapping = {'Action:': '?',
+                        'Caliber:': '?',
+                        'MasterPiece Arms': 'Masterpiece Arms'}
+df.manufacturer = df.manufacturer.apply(lambda x:
+                                        manufacturer_mapping[x]
+                                        if x in manufacturer_mapping
+                                        else x)
+
+
+def split_caliber(caliber_str):
+    parts = caliber_str.strip().split()
+    nums = []
+    no_nums = []
+    for part in parts:
+        if any(p.isdigit() for p in part):
+            nums.append(part)
+        else:
+            no_nums.append(part)
+    return [' '.join(nums), ' '.join(no_nums)]
+
+df.caliber = df.caliber.apply(
+    lambda x: x.lower().replace('wincester', 'winchester'))
+
+df['caliber_nums'], df['caliber_chars'] = zip(*df.caliber.apply(split_caliber))
+
+
+jsns = [json.loads(x) for x in open(
+    'uncharted_data/related-ad-groups.txt', 'r').readlines()]
+reverse_cluster_dict = {}
+for jsn in jsns:
+    for x in jsn['sources'] + jsn['records']:
+        reverse_cluster_dict[x['cdr_id']] = jsn['group']
+
+df['group'], df['group_size'] =
+zip(*df.cdr_id.apply(lambda x: reverse_cluster_dict[
+    x], len(reverse_cluster_dict[x]) if x in reverse_cluster_dict else -1, -1))
+
+for col in ['manufacturer', 'category_2', 'category_3', 'vendor_type']:
+    df[col] = df[col].astype('category')
+
+
 
 df = df.ix[(df.category_2.apply(lambda x: x not in odd_category_2s)), :]
 df = df.ix[(df.category_2 != '') | (df.category_3 != ''), :]
