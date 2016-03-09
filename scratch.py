@@ -26,7 +26,9 @@ sns.heatmap(df.pivot('site', 'month_year_str', 'doc_count').fillna(
     0).astype(int).sort_values(['2015-10', '2015-09'], ascending=False), annot=True, fmt='d', cmap='bone_r')
 
 # merge weapon recovery graphs
-# The heatmap is kind of boring - most weapons are recovered from the state in which they were sold.
+# The heatmap is kind of boring - most weapons are recovered from the
+# state in which they were sold.
+
 
 def get_melted_weapons(fpath, year):
     df = pd.read_excel(fpath)
@@ -46,14 +48,18 @@ def get_melted_weapons(fpath, year):
 df = pd.concat(get_melted_weapons(
     'atf_data/{}_state_recoveries.xlsx'.format(year), year) for year in [2013, 2014])
 
-mapping_dict = {'DST OF COLUMBIA': 'DISTRICT OF COLUMBIA', 'GUAM': 'GUAM & NORTHERN MARIANA ISLANDS', 'US VIRGIN ISLND': 'US VIRGIN ISLANDS'}
+mapping_dict = {'DST OF COLUMBIA': 'DISTRICT OF COLUMBIA',
+                'GUAM': 'GUAM & NORTHERN MARIANA ISLANDS', 'US VIRGIN ISLND': 'US VIRGIN ISLANDS'}
 
-df.ix[:, ['source_state', 'recovery_state']] = df.ix[:, ['source_state', 'recovery_state']].applymap(lambda x: mapping_dict[x] if x in mapping_dict else x)
+df.ix[:, ['source_state', 'recovery_state']] =
+df.ix[:, ['source_state', 'recovery_state']].applymap(
+    lambda x: mapping_dict[x] if x in mapping_dict else x)
 
 df.total = df.total.fillna(0).astype(int)
 
 sns.heatmap(pd.crosstab(df.recovery_state, df.source_state,
-                        values=df.total, aggfunc=sum).fillna(0).astype(int), cmap='bone_r')
+                        values=df.total, aggfunc=sum).fillna(0).astype(int),
+            cmap='bone_r')
 
 ##
 
