@@ -4,6 +4,8 @@ import ujson as json
 import pandas as pd
 import seaborn as sns
 
+# Counts of ads / site over time (CDR pull results)
+
 buckets = json.loads(open('cdr_query_results/weapons_per_site_per_month.json', 'r').read())[
     'aggregations']['per_site']['buckets']
 
@@ -21,9 +23,7 @@ df['month_year'] = df.key_as_string.apply(
     lambda x: pd.to_datetime(x.split('T')[0]))
 df['month_year_str'] = df['month_year'].astype(str).apply(lambda x: x[:7])
 sns.heatmap(df.pivot('site', 'month_year_str', 'doc_count').fillna(
-    0).astype(int).sort_by_value(['2015-10', '2015-09'], ascending=False), annot=True, fmt='d', cmap='bone_r')
-
-##
+    0).astype(int).sort_values(['2015-10', '2015-09'], ascending=False), annot=True, fmt='d', cmap='bone_r')
 
 
 def get_melted_weapons(fpath, year):
