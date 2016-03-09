@@ -152,13 +152,11 @@ jsns = [json.loads(x) for x in open(
 reverse_cluster_dict = {}
 for jsn in jsns:
     for x in jsn['sources'] + jsn['records']:
-        reverse_cluster_dict[x['cdr_id']] = jsn['group']
+        reverse_cluster_dict[x['cdr_id']] = (jsn['group'], len(jsn['sources'] + jsn['records']))
 
-df['group'], df['group_size'] =
-zip(*df.cdr_id.apply(lambda x: reverse_cluster_dict[
-    x], len(reverse_cluster_dict[x]) if x in reverse_cluster_dict else -1, -1))
+df['group'], df['group_size'] = zip(*df.cdr_id.apply(lambda x: reverse_cluster_dict[x] if x in reverse_cluster_dict else (-1, -1)))
 
-for col in ['manufacturer', 'category_2', 'category_3', 'vendor_type']:
+for col in ['manufacturer', 'category_2', 'category_3', 'vendor_type', 'group']:
     df[col] = df[col].astype('category')
 
 
