@@ -66,11 +66,13 @@ sns.heatmap(pd.crosstab(df.recovery_state, df.source_state,
 manual_df = pd.read_excel('atf_data/MANU_03-07-2016.xlsx')
 manual_df.columns = ['manufacturer_code',
                      'manufacturer_name', 'country_of_origin']
-code_to_manufacturer_dict = manual_df.ix[:, ['manufacturer_code', 'manufacturer_name']].set_index('manufacturer_code').to_dict('dict')['manufacturer_name']
+code_to_manufacturer_dict = manual_df.ix[:, ['manufacturer_code', 'manufacturer_name']].set_index(
+    'manufacturer_code').to_dict('dict')['manufacturer_name']
 
 
-df = pd.read_excel('atf_data/2005-2016 Stolen FFL guns NOT Recovered.xlsx')
-df.columns = ['serial_number', 'make', 'model', 'weapon_type', 'caliber_gauge']
+df_old = pd.read_excel('atf_data/2005-2016 Stolen FFL guns NOT Recovered.xlsx')
+df_old.columns = ['serial_number', 'make',
+                  'model', 'weapon_type', 'caliber_gauge']
 
 mapping_dict = {'AW': 'Any Other Weapon', 'C': 'Combination Gun',
                 'DD': 'Destructive Device', 'M': 'Machine gun', 'P': 'Pistol',
@@ -78,8 +80,24 @@ mapping_dict = {'AW': 'Any Other Weapon', 'C': 'Combination Gun',
                 'RF': 'Receiver/Frame', 'S': 'Shotgun', 'SI': 'Silencer',
                 'TG': 'Tear Gas Launcher', 'Z': '?'}
 
-df.weapon_type = df.weapon_type.apply(lambda x: mapping_dict[x] if x in mapping_dict else x)
-df['manufacturer'] = df.make.apply(lambda x: code_to_manufacturer_dict[x] if x in code_to_manufacturer_dict else x)
+df_old.weapon_type = df_old.weapon_type.apply(
+    lambda x: mapping_dict[x] if x in mapping_dict else x)
+df_old['manufacturer'] = df.make.apply(lambda x: code_to_manufacturer_dict[
+                                       x] if x in code_to_manufacturer_dict else x)
+
+# Value counts for weapon type seem like the best use of our time, and
+# that's it...
+
+# Loading up current weapons data,
+# we can get value counts or diff it from the old data
+# Still, there's not much else there.
+# We can't really tie it to thefts.
+
+df_new = pd.read_excel('atf_data/weapons_theft_data.xlsx')
+df_new.columns = ['manufacturer', 'caliber_gauge ',
+                  'model', 'weapon_type', 'firearm_count']
+
+df_new.ix[:, ['weapon_type', 'firearm_count']].groupby('weapon_type').sum()
 
 def class_merger(x):
     if x['category_3'] == 'Suppressors':
