@@ -50,12 +50,13 @@ df = pd.concat(get_melted_weapons(
 
 mapping_dict = {'DST OF COLUMBIA': 'DISTRICT OF COLUMBIA',
                 'GUAM': 'GUAM & NORTHERN MARIANA ISLANDS', 'US VIRGIN ISLND': 'US VIRGIN ISLANDS'}
-
-df.ix[:, ['source_state', 'recovery_state']] =
-df.ix[:, ['source_state', 'recovery_state']].applymap(
-    lambda x: mapping_dict[x] if x in mapping_dict else x)
+for col in ['source_state', 'recovery_state']:
+    df.ix[:, col] = df.ix[:, col].apply(lambda x: mapping_dict[x] if x in mapping_dict else x)
 
 df.total = df.total.fillna(0).astype(int)
+
+# floor total values at intersections
+df.total = df.apply(lambda x: x['total'] if x['source_state'] != x['recovery_state'] else 0, axis=1)
 
 sns.heatmap(pd.crosstab(df.recovery_state, df.source_state,
                         values=df.total, aggfunc=sum).fillna(0).astype(int),
