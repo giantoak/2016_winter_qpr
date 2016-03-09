@@ -1,0 +1,801 @@
+NFA
+Never fired
+no serial
+full auto
+converted modified
+STEN
+Uzi
+MAC
+AK
+M16
+SKS
+MP5
+CZ
+Scorpion
+MP40
+Sterling
+Thompson
+FAL
+MG34
+MG42
+PKM
+M1919
+M1917
+MP38
+MP40
+G3
+Vulcan
+minigun
+Maxim
+Vickers
+KG-9
+SM10
+SM11A1
+AK47
+MP-43
+MP-44
+STG-44
+M-10
+SM-10
+PM-98
+M60
+MP7
+Hotchkiss
+PPS
+M3
+AR-18
+M240
+Swedish K
+Czech Vz
+Spitfire Carbine
+readily restored
+submachine gun
+select fire
+Clandestine
+muffler
+suppressor
+baffle
+end-cap
+Oil trap
+oil trap adapter
+solvent trap
+filter adapter
+fuel filter adapter
+oil filter adapter
+freeze plug baffle
+DIAS
+sear
+disconnector
+Auto sear
+Glock chip
+Glock sear
+Glock switch
+lightning link
+drop-in auto sear
+M16 trigger group
+conversion sear
+M2 carbine conversion kit
+selective fire
+Glock conversion
+Airsoft conversion
+starter gun conversion
+conversion kit 
+AOW
+SBR
+explosive
+incendiary
+bomb
+grenade
+rocket
+mine
+SBS
+pengun
+RPG
+mortar
+bazooka
+USAS-12
+Belt buckle gun
+destructive device
+poison gas
+short-barreled rifle
+short-barreled shotgun
+weapon made from a shotgun
+weapon made from a rifle
+any other weapon
+cigarette lighter gun
+knife gun
+cane gun
+umbrella gun
+H&R Handy Gun
+Ithaca Auto & Burglar gun
+Marble Game Getter
+vertical hand grip
+wallet holster
+large caliber weapon
+flare insert
+pen gun
+rocket launcher
+anti-tank rifle
+street sweeper
+
+Abrin
+Agent 15
+Antrax
+Arsines
+Backpack nuke
+Balancing Machines
+Bambi
+Beryllium
+biohazard
+biological
+biological weapon
+Bioreactor
+bonus damage
+bush
+Capacitors
+Chemical
+chemical weapon
+cheney
+chlorine
+Crucible
+cyanide
+Cyanogen chloride
+cyclosarin
+Device
+Dirty Bomb
+dirty bomber
+Discharge
+Electrical
+face-shot
+FAE
+Fermenter
+Filament
+Flow Form Machine
+Focal Plane Sensor
+Frequency Changer
+Generators
+Gravity Gradiometer
+Gravity Meter
+Hafnium
+Hafnium
+Heat Exchange
+hydrogen chloride
+hydrogen cyanide
+IED
+IID
+incendiary
+Inspection
+Isostatic Presses
+Laser
+Lathe
+lewisite
+Magnetic gradiometer
+Maraging Steel
+nerve gas
+Niobium
+nitrogen mustard
+nitrogen oxide
+Novichok
+nuclear
+nuclear weapon
+Outlet pipe
+phosgene
+phosgene oxime
+Pressure Transducer
+Radioactive fallout device
+radiological
+radiological weapon
+ricin
+Sarin
+soman
+Spectrometer
+spud gun
+sulfur mustard
+Switching Device
+tabun
+Tantalum
+tear gas
+TOW
+toxin
+VR
+VX
+Weapons of Mass Destruction
+weapons-grade
+Winding
+WMD
+Wooden
+Woompher
+Zirconium
+Acetylides of heavy metal
+aerial shell
+aluminum
+Aluminum containing polymeric propellant
+Aluminum ophorite explosive
+Amatex
+Amatol
+Ammonal
+ammonia
+ammonium nitrate
+Ammonium nitrate explosive mixtures
+Ammonium perchlorate explosive mixtures
+Ammonium perchlorate having particle size less than 15 microns
+Ammonium picrate
+picrate of ammonia
+Explosive D
+Ammonium salt lattice with isomorphously substituted inorganic salts
+ANFO
+ammonium nitrate-fuel oil
+Aromatic nitro-compound explosive mixtures
+articles pyrotechnic
+ ATF
+ATFE
+Azide explosive
+bang
+Baranol
+Baratol
+BATFE
+BEAF
+binary
+black powder
+Black powder based explosive mixtures
+black powder bomb
+Blasting agent
+Blasting cap
+Blasting gelatin
+Blasting powder
+blow up
+bomb
+boom
+booster
+BTNEC
+BTNEN
+BTTN
+Bulk salute
+Bureau of ATF
+butane bomb
+Butyl tetryl
+c-4
+cake
+Calcium nitrate explosive mixture
+cap sensitive
+Cellulose hexanitrate explosive mixture
+charge
+Chlorate explosive mixtures
+Class B
+Class C
+Composition A and variations
+Composition B and variations
+Composition C and variations
+Copper acetylide
+cord
+Cyanuric triazide
+Cyclonite
+RDX
+Cyclotetramethylenetetranitramine
+HMX
+Cyclotol
+Cyclotrimethylenetrinitramine
+DATB
+diaminotrinitrobenzene
+DDNP
+diazodinitrophenol
+DEGDN
+diethyleneglycol
+dinitrate
+depth charge
+det cord
+Detonating cord
+detonator
+dets
+diesel
+diesel fuel
+Dimethylol dimethyl methane dinitrate composition
+Dinitroethyleneurea
+Dinitroglycerine
+Dinitrophenol
+Dinitrophenolates
+Dinitrophenyl hydrazine
+Dinitroresorcinol
+Dinitrotoluene-sodium nitrate explosive mixtures
+DIPAM
+dipicramide
+diaminohexanitrobiphenyl
+Dipicryl sulfone
+Dipicrylamine
+Display fireworks
+DNPA
+DNPD
+Dynamite
+EDDN
+ethylene diamine dinitrate
+EDNA
+ethylenedinitramine
+Ednatol
+EDNP
+EGDN
+ethylene glycol dinitrate
+Emulsion
+Erythritol tetranitrate explosives
+Esters of nitro-substituted alcohols
+Ethyl-tetryl
+EX Number
+explosive
+Explosive conitrate
+Explosive gelatin
+Explosive liquid
+nitromethane
+tetranitromethane
+nitroform
+aromatic
+hydrocarbon
+Federal Explosives Licensee
+Federal Explosives Permit
+FEL
+FEP
+fertilizer
+firework
+Flash powder
+flash powder bomb
+fuel
+fuel air mixture bomb
+Fulminate of mercury
+Fulminate of silver
+Fulminating gold
+Fulminating mercury
+Fulminating platinum
+Fulminating silver
+fuse
+Gelatinized
+nitrocellulose
+Gem-dinitro aliphatic
+grenade
+Guanyl nitrosamino guanyl tetrazene
+Guanyl nitrosamino guanylidene hydrazine
+Guncotton
+Heavy metal azide
+helix
+Hexanite
+Hexanitrodiphenylamine
+Hexanitrostilbene
+Hexogen
+Hexogene or octogene and a nitrated Nmethylaniline
+Hexolite
+high explosive
+HME
+HMTD
+hexamethylenetriperoxidediamine
+HMX
+homemade bomb
+homemade explosive
+Hydrazinium
+nitrate
+hydrazine
+aluminum
+Hydrazoic acid
+Hydrogen peroxide
+igniter
+Igniter cord
+Igniters
+incendiary
+Initiating tube system
+instant mix
+KDNBF
+potassium dinitrobenzo-furoxane
+land mine
+Lead azide
+Lead mannite
+Lead mononitroresorcinate
+Lead picrate
+Lead salts, explosive
+Lead styphnate
+styphnate of lead
+lead trinitroresorcinate
+Liquid nitrated polyol and trimethylolethane
+Liquid oxygen explosives
+low explosive
+M/S
+M-80
+Magnesium ophorite explosives
+Mannitol hexanitrate
+mass destruction
+mass detonate
+mass detonation
+mass explosion
+mass explosive
+MDNP
+MEAN
+monoethanolamine nitrate
+Mercuric fulminate
+Mercury oxalate
+Mercury tartrate
+methane
+Metriol trinitrate
+millisecond
+Minol-2
+MMAN
+methylamine nitrate
+molotov
+molotov cocktail
+Mononitrotoluene-nitroglycerin mixture
+Monopropellants
+NIBTN
+nitroisobutametriol trinitrate
+Nitrate explosive mixtures
+Nitrate sensitized with gelled nitroparaffin
+Nitrated carbohydrate explosive
+Nitrated glucoside explosive
+Nitrated polyhydric alcohol explosives
+Nitric acid and a nitro aromatic compound explosive
+Nitric acid and carboxylic fuel explosive
+Nitric acid explosive mixtures
+nitro
+Nitro aromatic explosive mixtures
+Nitro compounds of furane explosive mixtures
+Nitrocellulose explosive
+Nitroderivative of urea explosive mixture
+Nitrogelatin explosive
+Nitrogen trichloride
+Nitrogen tri-iodide
+Nitroglycerine
+Nitroglycide
+Nitroglycol
+Nitroguanidine explosives
+Nitronium perchlorate propellant mixtures
+Nitroparaffins Explosive Grade and ammonium nitrate mixtures
+Nitrostarch
+Nitro-substituted carboxylic acids
+Nitrourea
+Octogen
+Octol
+oil perforator
+Organic amine nitrates
+Organic nitramines
+oxidizer
+PBX
+Pellet powder
+Penthrinite composition
+Pentolite
+Perchlorate explosive mixtures
+Peroxide based explosive mixtures
+PETN
+Picramic acid and its salts
+Picramide
+Picrate explosives
+Picrate of potassium explosive mixtures
+Picratol
+Picric acid (manufactured as an explosive)
+Picryl chloride
+Picryl fluoride
+pipe bomb
+plastic explosive
+PLX
+Polynitro aliphatic compounds
+Polyolpolynitrate-nitrocellulose explosive gels
+Potassium chlorate and lead sulfocyanate explosive
+Potassium nitrate explosive mixtures
+Potassium nitroaminotetrazole
+pounds
+propane bomb
+pyrotechnic
+Pyrotechnic compositions
+PYX
+Quarter stick
+RDX
+Safety fuse
+Salts of organic amino sulfonic acid explosive mixture
+salute
+shape charge
+shell
+Silver acetylide
+Silver azide
+Silver fulminate
+Silver oxalate explosive mixtures
+Silver styphnate
+Silver tartrate explosive mixtures
+Silver tetrazene
+Slurried explosive mixtures of water, inorganic oxidizing salt, gelling agent, fuel, and sensitizer (cap sensitive)
+Smokeless powder
+Sodatol
+Sodium amatol
+Sodium azide explosive mixture
+Sodium dinitro-ortho-cresolate
+Sodium nitrate explosive mixtures
+Sodium nitrate-potassium nitrate explosive mixture
+Sodium picramate
+Special fireworks
+Squib
+Styphnic acid explosives
+Tacot
+tannerite
+TATB
+TATP
+TEGDN
+Tetranitrocarbazole
+Tetrazene
+Tetrazole
+Tetryl
+Tetrytol
+thermobaric bomb
+Thickened inorganic oxidizer salt slurried explosive mixture
+TMETN
+TNEF
+TNEOC
+TNEOF
+TNT
+Torpex
+Tridite
+Trimethylol ethyl methane trinitrate composition
+Trimethylolthane trinitrate-nitrocellulose
+Trimonite
+Trinitroanisole
+Trinitrobenzene
+Trinitrobenzoic acid
+Trinitrocresol
+Trinitro-meta-cresol
+Trinitronaphthalene
+Trinitrophenetol
+Trinitrophloroglucinol
+Trinitroresorcinol
+Tritonal
+UN Number
+Urea nitrate
+Water-bearing explosives having salts of oxidizing acids and nitrogen bases, sulfates, or sulfamates (cap sensitive)
+Water-in-oil emulsion explosive compositions
+Xanthamonas hydrophilic colloid explosive mixture
+Quarterstick
+Halfstick
+11.5 inch
+11.5"
+14 inch
+14"
+any other weapon
+AOW
+auto sear
+automatic
+autosear
+AW-SIM
+can
+cane gun
+class 3
+class III
+conversion
+conversion kit
+destructive device
+DIAS
+drop in auto sear
+drop in autosear
+FA
+flash bang
+flashbang
+forward grip
+full auto
+grenade
+homemade silencer
+homemade suppressor
+incendiary
+land mine
+Lightning Link
+machine gun
+machinegun
+missile
+molotov
+molotov cocktail
+muffler
+nfa
+pen gun
+pistol grip
+poison gas
+RLL
+rocket
+rocket launcher
+sawed off
+sbr
+sbs
+sear
+short barrel rifle
+short barrel shotgun
+short barreled rifle
+short barreled shotgun
+silencer
+smooth bore
+SOT
+Special Occupational Tax
+street sweeper
+suppressor
+umbrella gun
+wallet gun
+weapon made from
+Zip gun
+Zipgun
+boom stick
+burner
+cash, money, heroin
+chopper
+clap-clap
+dat fire
+dat thang
+davy crocket
+deuce
+deuce deuce
+duece
+fofo
+four nickle
+gat
+gatt
+gauge
+ghost load
+hammer
+heater
+hog leg
+jammy
+lead spitta
+lil buddy
+long pumps
+mac
+mack
+mr. 9mm
+narco
+nina
+nine
+ol'betsy
+ooh wop
+piece
+pocket rocket
+rod
+roscoe
+sawdy
+shotty
+smoke wagon
+strap
+throw down
+thunder stick
+toaster
+tres
+widow maker
+yeezy
+arma larga
+armas de fuego
+bala
+cahuetas
+Cartucho
+Cebolla
+cortas
+cuerno de chivo
+Cuerno
+cuete
+El Subfusil ametralladora
+escopete
+escuadra
+escuadra
+explosivo
+fusca
+gat
+la ametralladora
+la escopeta
+Lanza papas
+largas
+municion
+Municiones
+Papa
+Papas
+penas
+Pertrechos
+pistola
+Polvora
+proyectil
+r quinze
+Tolba
+trick or treat
+tricki-tricki
+Vaina
+5.56
+7.62
+1911
+.45 caliber
+.50 caliber
+37 mm
+37mm
+3-D firearm
+3-D print
+3-D printed
+80 percent receiver
+80% receiver
+9mm
+AK
+AK-47
+AK-74
+ammo
+ammunition
+APA
+AR
+AR-15
+Armor piercing
+Armor piercing ammuntion
+assault rifle
+Barrett
+Build party
+bullet proof vest
+bump fire
+bump stock
+caliber
+carbine
+cash only
+centerfire
+Chopper
+clip
+CNC
+concealable
+derringer
+F2F
+face to face
+Federal Firearms License
+FFL
+fixed stock
+flare gun
+FMJ
+folding stock
+frame
+full metal jacket
+gas mask
+ghost gun
+Glock
+handgun
+hi point
+high capacity
+homemade gun
+jimenez
+keltec
+kevlar
+long gun
+lower
+mag
+magazine
+MP4
+MP5
+no 4473
+no background
+no check
+no paper work
+no paperwork
+no questions asked
+oblit
+obliterated
+off book
+pistol
+receiver
+revolver
+rifle
+rimfire
+RPG
+S&W
+SA
+scratched
+semi-auto
+semi-automatic
+shotgun
+shotty
+shoty
+sig brace
+stripped lower
+stun gun
+Taurus
+untraceable
+vest
+Glock Switch
+Glock Chip
+Baffle
+Baffle Stack
+Monocore
+Anarchist
+Solvent Trap
+LDC
+Belt Fed
+Crew served
+Hip Whip
+Polymer
+CNC machine
+Green tip
+Black tip
+FAL
+Outer tube
+trigger

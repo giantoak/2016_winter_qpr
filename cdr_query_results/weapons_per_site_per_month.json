@@ -1,0 +1,252 @@
+{
+  "took": 301,
+  "timed_out": false,
+  "_shards": {
+    "total": 240,
+    "successful": 240,
+    "failed": 0
+  },
+  "hits": {
+    "total": 5709335,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "per_site": {
+      "doc_count_error_upper_bound": 2357,
+      "sum_other_doc_count": 1960432,
+      "buckets": [
+        {
+          "key": "armslist.com",
+          "doc_count": 1042435,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 5427
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 867889
+              },
+              {
+                "key_as_string": "2015-11-01T00:00:00.000Z",
+                "key": 1446336000000,
+                "doc_count": 19015
+              },
+              {
+                "key_as_string": "2015-12-01T00:00:00.000Z",
+                "key": 1448928000000,
+                "doc_count": 42146
+              },
+              {
+                "key_as_string": "2016-01-01T00:00:00.000Z",
+                "key": 1451606400000,
+                "doc_count": 40541
+              },
+              {
+                "key_as_string": "2016-02-01T00:00:00.000Z",
+                "key": 1454284800000,
+                "doc_count": 60646
+              },
+              {
+                "key_as_string": "2016-03-01T00:00:00.000Z",
+                "key": 1456790400000,
+                "doc_count": 6771
+              }
+            ]
+          }
+        },
+        {
+          "key": "lionseek.com",
+          "doc_count": 673363,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 1383
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 671980
+              }
+            ]
+          }
+        },
+        {
+          "key": "americanlisted.com",
+          "doc_count": 463681,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 138991
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 324690
+              }
+            ]
+          }
+        },
+        {
+          "key": "shooting.org",
+          "doc_count": 284413,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 50
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 284363
+              }
+            ]
+          }
+        },
+        {
+          "key": "wikipedia.org",
+          "doc_count": 243036,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 3
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 243033
+              }
+            ]
+          }
+        },
+        {
+          "key": "backpage.com",
+          "doc_count": 231402,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-08-01T00:00:00.000Z",
+                "key": 1438387200000,
+                "doc_count": 6
+              },
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 53545
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 177851
+              }
+            ]
+          }
+        },
+        {
+          "key": "theoutdoorstrader.com",
+          "doc_count": 199498,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 510
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 164176
+              },
+              {
+                "key_as_string": "2015-11-01T00:00:00.000Z",
+                "key": 1446336000000,
+                "doc_count": 3734
+              },
+              {
+                "key_as_string": "2015-12-01T00:00:00.000Z",
+                "key": 1448928000000,
+                "doc_count": 9570
+              },
+              {
+                "key_as_string": "2016-01-01T00:00:00.000Z",
+                "key": 1451606400000,
+                "doc_count": 9181
+              },
+              {
+                "key_as_string": "2016-02-01T00:00:00.000Z",
+                "key": 1454284800000,
+                "doc_count": 11281
+              },
+              {
+                "key_as_string": "2016-03-01T00:00:00.000Z",
+                "key": 1456790400000,
+                "doc_count": 1046
+              }
+            ]
+          }
+        },
+        {
+          "key": "oodle.com",
+          "doc_count": 180554,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 1874
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 178680
+              }
+            ]
+          }
+        },
+        {
+          "key": "recycler.com",
+          "doc_count": 98885,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-09-01T00:00:00.000Z",
+                "key": 1441065600000,
+                "doc_count": 3744
+              },
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 95141
+              }
+            ]
+          }
+        },
+        {
+          "key": "gunsamerica.com",
+          "doc_count": 81701,
+          "ads_over_time": {
+            "buckets": [
+              {
+                "key_as_string": "2015-10-01T00:00:00.000Z",
+                "key": 1443657600000,
+                "doc_count": 81701
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
