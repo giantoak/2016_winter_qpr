@@ -1,5 +1,5 @@
 {
-  "took": 301,
+  "took": 6401,
   "timed_out": false,
   "_shards": {
     "total": 240,
@@ -7,29 +7,29 @@
     "failed": 0
   },
   "hits": {
-    "total": 5709335,
+    "total": 6634931,
     "max_score": 0,
     "hits": []
   },
   "aggregations": {
     "per_site": {
-      "doc_count_error_upper_bound": 2357,
-      "sum_other_doc_count": 1960432,
+      "doc_count_error_upper_bound": 2373,
+      "sum_other_doc_count": 2126473,
       "buckets": [
         {
           "key": "armslist.com",
-          "doc_count": 1042435,
+          "doc_count": 1060191,
           "ads_over_time": {
             "buckets": [
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 5427
+                "doc_count": 4789
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 867889
+                "doc_count": 868527
               },
               {
                 "key_as_string": "2015-11-01T00:00:00.000Z",
@@ -54,25 +54,30 @@
               {
                 "key_as_string": "2016-03-01T00:00:00.000Z",
                 "key": 1456790400000,
-                "doc_count": 6771
+                "doc_count": 24527
               }
             ]
           }
         },
         {
           "key": "lionseek.com",
-          "doc_count": 673363,
+          "doc_count": 673900,
           "ads_over_time": {
             "buckets": [
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 1383
+                "doc_count": 202
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 671980
+                "doc_count": 673161
+              },
+              {
+                "key_as_string": "2016-03-01T00:00:00.000Z",
+                "key": 1456790400000,
+                "doc_count": 537
               }
             ]
           }
@@ -85,12 +90,12 @@
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 138991
+                "doc_count": 99331
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 324690
+                "doc_count": 364350
               }
             ]
           }
@@ -101,14 +106,9 @@
           "ads_over_time": {
             "buckets": [
               {
-                "key_as_string": "2015-09-01T00:00:00.000Z",
-                "key": 1441065600000,
-                "doc_count": 50
-              },
-              {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 284363
+                "doc_count": 284413
               }
             ]
           }
@@ -121,12 +121,12 @@
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 3
+                "doc_count": 2
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 243033
+                "doc_count": 243034
               }
             ]
           }
@@ -144,30 +144,30 @@
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 53545
+                "doc_count": 41661
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 177851
+                "doc_count": 189735
               }
             ]
           }
         },
         {
           "key": "theoutdoorstrader.com",
-          "doc_count": 199498,
+          "doc_count": 203415,
           "ads_over_time": {
             "buckets": [
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 510
+                "doc_count": 1367
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 164176
+                "doc_count": 164099
               },
               {
                 "key_as_string": "2015-11-01T00:00:00.000Z",
@@ -192,7 +192,7 @@
               {
                 "key_as_string": "2016-03-01T00:00:00.000Z",
                 "key": 1456790400000,
-                "doc_count": 1046
+                "doc_count": 4183
               }
             ]
           }
@@ -205,12 +205,12 @@
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 1874
+                "doc_count": 1833
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 178680
+                "doc_count": 178721
               }
             ]
           }
@@ -223,25 +223,30 @@
               {
                 "key_as_string": "2015-09-01T00:00:00.000Z",
                 "key": 1441065600000,
-                "doc_count": 3744
+                "doc_count": 1807
               },
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
-                "doc_count": 95141
+                "doc_count": 97078
               }
             ]
           }
         },
         {
           "key": "gunsamerica.com",
-          "doc_count": 81701,
+          "doc_count": 83030,
           "ads_over_time": {
             "buckets": [
               {
                 "key_as_string": "2015-10-01T00:00:00.000Z",
                 "key": 1443657600000,
                 "doc_count": 81701
+              },
+              {
+                "key_as_string": "2016-03-01T00:00:00.000Z",
+                "key": 1456790400000,
+                "doc_count": 1329
               }
             ]
           }
