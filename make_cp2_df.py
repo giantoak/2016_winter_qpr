@@ -183,6 +183,9 @@ sns.heatmap(simple_risk_pivot, cmap='bone_r')
 # Normalized heat map
 sns.heatmap(simple_risk_pivot / simple_risk_pivot.sum(), cmap='bone_r')
 
+# Write the unmerged armslist data
+df.to_pickle('armslist_data.pkl')
+
 # MERGE THE DFS
 new_df = pd.merge(df, cp2_df)
 
